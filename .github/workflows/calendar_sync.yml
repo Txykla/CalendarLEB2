@@ -1,0 +1,39 @@
+name: Update LEB2 Calendar
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # สั่งรันทุกๆ 6 ชั่วโมง
+  workflow_dispatch: # เปิดให้มีปุ่มกดรันเองได้ด้วย
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # ให้สิทธิ์ Action สามารถ Push ไฟล์กลับเข้า Repo ได้
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run LEB2 Script
+        env:
+          LEB2_PASS: ${{ secrets.LEB2_PASS }}
+        run: python main.py
+
+      - name: Commit and Push .ics file
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add leb2_homework.ics
+          git commit -m "Auto-update LEB2 Calendar" || echo "No changes to commit"
+          git push
