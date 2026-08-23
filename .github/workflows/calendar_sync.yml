@@ -28,7 +28,7 @@ jobs:
       - name: Run LEB2 Script
         env:
           LEB2_PASS: ${{ secrets.LEB2_PASS }}
-        run: python main.py
+        run: python tryapi.py
 
       - name: Commit and Push .ics file
         run: |
