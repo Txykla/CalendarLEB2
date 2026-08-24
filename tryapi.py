@@ -89,6 +89,9 @@ for cid in class_ids:
 
                 # --- สร้าง Event ยัดใส่ Calendar ---
                 e = Event()
+                                # --- สร้าง Event ยัดใส่ Calendar ---
+                e = Event()
+                e.uid = f"leb2_{act.get('id')}" # <--- เพิ่มบรรทัดนี้เข้าไปครับ
                 e.name = f"{status_prefix}[LEB2] {subject_name} - {title}"
                 e.begin = due_datetime - timedelta(hours=1)
                 e.end = due_datetime
