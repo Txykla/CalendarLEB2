@@ -88,16 +88,20 @@ for cid in class_ids:
                     due_datetime = due_datetime.replace(year=now.year, month=now.month, day=now.day)
 
                 # --- สร้าง Event ยัดใส่ Calendar ---
-                e = Event()
                                 # --- สร้าง Event ยัดใส่ Calendar ---
                 e = Event()
-                e.uid = f"leb2_{act.get('id')}" # <--- เพิ่มบรรทัดนี้เข้าไปครับ
+                e.uid = f"leb2_{act.get('id')}"
                 e.name = f"{status_prefix}[LEB2] {subject_name} - {title}"
                 e.begin = due_datetime - timedelta(hours=1)
                 e.end = due_datetime
-                e.description = f"กำหนดส่งเดิม: {due}"
+                
+                # --- สร้างลิงก์และยัดใส่ Description ---
+                leb2_url = f"https://app.leb2.org/class/{cid}/activity/{act.get('id')}"
+                e.description = f"กำหนดส่งเดิม: {due}\n\nลิงก์ส่งงาน: {leb2_url}"
+                e.url = leb2_url # ใส่ลง property URL ของปฏิทินด้วย
                 
                 cal.events.add(e)
+
                 print(f"เพิ่มลง Calendar: {e.name}")
                 
             except Exception as e:
