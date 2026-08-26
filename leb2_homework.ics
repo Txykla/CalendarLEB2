@@ -41,4 +41,12 @@ SUMMARY:[LATE] [LEB2] INC 361 - Workshop 01: Controller programming
 UID:leb2_22111821
 URL:https://app.leb2.org/class/1596682/activity/22111821
 END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-08-26 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621625
+DTEND:20260826T053059Z
+DTSTART:20260826T043059Z
+SUMMARY:[LATE] [LEB2] INC 351 - Q1 Probability
+UID:leb2_21621625
+URL:https://app.leb2.org/class/1556430/activity/21621625
+END:VEVENT
 END:VCALENDAR
