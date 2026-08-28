@@ -18,12 +18,20 @@ UID:leb2_21774039
 URL:https://app.leb2.org/class/1545560/activity/21774039
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-02 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584003
-DTEND:20260902T053059Z
-DTSTART:20260902T043059Z
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-02 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584003
+DTEND:20260902T050059Z
+DTSTART:20260902T040059Z
 SUMMARY:[LEB2] INC 351 - (G) GA1 Descriptive Statistics
 UID:leb2_21584003
 URL:https://app.leb2.org/class/1556430/activity/21584003
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111824
+DTEND:20260915T165959Z
+DTSTART:20260915T155959Z
+SUMMARY:[LEB2] INC 361 - Workshop 02: Modbus protocol
+UID:leb2_22111824
+URL:https://app.leb2.org/class/1596682/activity/22111824
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-02 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584008
@@ -40,6 +48,14 @@ DTSTART:20260828T060059Z
 SUMMARY:[LATE] [LEB2] INC 361 - Workshop 01: Controller programming
 UID:leb2_22111821
 URL:https://app.leb2.org/class/1596682/activity/22111821
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-08 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111822
+DTEND:20260908T165959Z
+DTSTART:20260908T155959Z
+SUMMARY:[LEB2] INC 361 - Assignment 02: Automation systems design with classic I/O cards.
+UID:leb2_22111822
+URL:https://app.leb2.org/class/1596682/activity/22111822
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-08-26 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621625
