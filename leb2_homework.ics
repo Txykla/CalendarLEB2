@@ -2,6 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-08 00:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22506370
+DTEND:20260907T170059Z
+DTSTART:20260907T160059Z
+SUMMARY:[LEB2] INC 411 - 4. Risk Assessment 
+UID:leb2_22506370
+URL:https://app.leb2.org/class/1545560/activity/22506370
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-08 00:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22506373
 DTEND:20260907T170059Z
 DTSTART:20260907T160059Z
