@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-08 00:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22506370
-DTEND:20260907T170059Z
-DTSTART:20260907T160059Z
-SUMMARY:[LEB2] INC 411 - 4. Risk Assessment 
-UID:leb2_22506370
-URL:https://app.leb2.org/class/1545560/activity/22506370
+DESCRIPTION:กำหนดส่งเดิม: 2026-08-25 14:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111821
+DTEND:20260901T070059Z
+DTSTART:20260901T060059Z
+SUMMARY:[LATE] [LEB2] INC 361 - Workshop 01: Controller programming
+UID:leb2_22111821
+URL:https://app.leb2.org/class/1596682/activity/22111821
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-08 00:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22506373
@@ -74,12 +74,12 @@ UID:leb2_22506309
 URL:https://app.leb2.org/class/1575964/activity/22506309
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-08-25 14:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111821
-DTEND:20260901T070059Z
-DTSTART:20260901T060059Z
-SUMMARY:[LATE] [LEB2] INC 361 - Workshop 01: Controller programming
-UID:leb2_22111821
-URL:https://app.leb2.org/class/1596682/activity/22111821
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-08 00:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22528321
+DTEND:20260907T170059Z
+DTSTART:20260907T160059Z
+SUMMARY:[LEB2] INC 411 - 4. ISO 45001-Risk Assessment 
+UID:leb2_22528321
+URL:https://app.leb2.org/class/1545560/activity/22528321
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-08 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111822
