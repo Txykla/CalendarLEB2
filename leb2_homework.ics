@@ -34,28 +34,12 @@ UID:leb2_21774039
 URL:https://app.leb2.org/class/1545560/activity/21774039
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-02 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584003
-DTEND:20260902T050059Z
-DTSTART:20260902T040059Z
-SUMMARY:[LEB2] INC 351 - (G) GA1 Descriptive Statistics
-UID:leb2_21584003
-URL:https://app.leb2.org/class/1556430/activity/21584003
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111824
 DTEND:20260915T165959Z
 DTSTART:20260915T155959Z
 SUMMARY:[LEB2] INC 361 - Workshop 02: Modbus protocol
 UID:leb2_22111824
 URL:https://app.leb2.org/class/1596682/activity/22111824
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-02 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584008
-DTEND:20260902T050059Z
-DTSTART:20260902T040059Z
-SUMMARY:[LEB2] INC 351 - (I) HW2 Discrete Distribution
-UID:leb2_21584008
-URL:https://app.leb2.org/class/1556430/activity/21584008
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-08-31 13:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1575964/activity/22506308
