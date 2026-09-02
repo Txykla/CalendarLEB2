@@ -81,4 +81,12 @@ SUMMARY:[LATE] [LEB2] INC 351 - Q1 Probability
 UID:leb2_21621625
 URL:https://app.leb2.org/class/1556430/activity/21621625
 END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-02 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621626
+DTEND:20260902T053059Z
+DTSTART:20260902T043059Z
+SUMMARY:[LATE] [LEB2] INC 351 - Q2 Discrete Distribution
+UID:leb2_21621626
+URL:https://app.leb2.org/class/1556430/activity/21621626
+END:VEVENT
 END:VCALENDAR
