@@ -34,6 +34,14 @@ UID:leb2_22111824
 URL:https://app.leb2.org/class/1596682/activity/22111824
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-09 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584009
+DTEND:20260909T050059Z
+DTSTART:20260909T040059Z
+SUMMARY:[LEB2] INC 351 - (I) HW3 Continuous Distribution
+UID:leb2_21584009
+URL:https://app.leb2.org/class/1556430/activity/21584009
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-08-31 13:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1575964/activity/22506308
 DTEND:20260908T063059Z
 DTSTART:20260908T053059Z
