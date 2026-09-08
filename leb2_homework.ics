@@ -34,6 +34,14 @@ UID:leb2_22111824
 URL:https://app.leb2.org/class/1596682/activity/22111824
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-16 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584010
+DTEND:20260916T050059Z
+DTSTART:20260916T040059Z
+SUMMARY:[LEB2] INC 351 - (I) HW4 Sampling Distribution
+UID:leb2_21584010
+URL:https://app.leb2.org/class/1556430/activity/21584010
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-09 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584009
 DTEND:20260909T050059Z
 DTSTART:20260909T040059Z
@@ -58,9 +66,9 @@ UID:leb2_22528321
 URL:https://app.leb2.org/class/1545560/activity/22528321
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-08 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111822
-DTEND:20260908T165959Z
-DTSTART:20260908T155959Z
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111822
+DTEND:20260915T165959Z
+DTSTART:20260915T155959Z
 SUMMARY:[LEB2] INC 361 - Assignment 02: Automation systems design with classic I/O cards.
 UID:leb2_22111822
 URL:https://app.leb2.org/class/1596682/activity/22111822
