@@ -42,14 +42,6 @@ UID:leb2_21774039
 URL:https://app.leb2.org/class/1545560/activity/21774039
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-10 12:30:00\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22707099
-DTEND:20260910T053000Z
-DTSTART:20260910T043000Z
-SUMMARY:[LEB2] INC 352 - Attendance Pressure Measurement Lecture before watch video
-UID:leb2_22707099
-URL:https://app.leb2.org/class/1563128/activity/22707099
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111824
 DTEND:20260915T165959Z
 DTSTART:20260915T155959Z
@@ -72,14 +64,6 @@ DTSTART:20260910T053059Z
 SUMMARY:[LATE] [LEB2] MEE 224 - Week 3 - Assignments on Energy analysis of closed systems
 UID:leb2_22506308
 URL:https://app.leb2.org/class/1575964/activity/22506308
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-10 12:30:00\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22705207
-DTEND:20260910T053000Z
-DTSTART:20260910T043000Z
-SUMMARY:[LEB2] INC 352 - Pressure Measurement by Aj.Jiravit
-UID:leb2_22705207
-URL:https://app.leb2.org/class/1563128/activity/22705207
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 00:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22528321
