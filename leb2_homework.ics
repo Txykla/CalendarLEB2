@@ -66,6 +66,14 @@ UID:leb2_22506308
 URL:https://app.leb2.org/class/1575964/activity/22506308
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-18 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111825
+DTEND:20260918T165959Z
+DTSTART:20260918T155959Z
+SUMMARY:[LEB2] INC 361 - Assignment 03: Automation systems design with fieldbus technology.
+UID:leb2_22111825
+URL:https://app.leb2.org/class/1596682/activity/22111825
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 00:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22528321
 DTEND:20260914T170059Z
 DTSTART:20260914T160059Z
