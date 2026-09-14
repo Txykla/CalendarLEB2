@@ -58,6 +58,14 @@ UID:leb2_21584010
 URL:https://app.leb2.org/class/1556430/activity/21584010
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-23 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584011
+DTEND:20260923T050059Z
+DTSTART:20260923T040059Z
+SUMMARY:[LEB2] INC 351 - (G) GA2 Confidence Interval
+UID:leb2_21584011
+URL:https://app.leb2.org/class/1556430/activity/21584011
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-08-31 13:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1575964/activity/22506308
 DTEND:20260914T063059Z
 DTSTART:20260914T053059Z
