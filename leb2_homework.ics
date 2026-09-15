@@ -10,6 +10,14 @@ UID:leb2_21621627
 URL:https://app.leb2.org/class/1556430/activity/21621627
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-22 00:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22822441
+DTEND:20260921T170059Z
+DTSTART:20260921T160059Z
+SUMMARY:[LEB2] INC 411 - 6. Fire Prevention
+UID:leb2_22822441
+URL:https://app.leb2.org/class/1545560/activity/22822441
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111824
 DTEND:20260915T165959Z
 DTSTART:20260915T155959Z
