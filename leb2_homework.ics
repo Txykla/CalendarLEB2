@@ -26,6 +26,22 @@ UID:leb2_22911264
 URL:https://app.leb2.org/class/1575964/activity/22911264
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968160
+DTEND:20261008T093059Z
+DTSTART:20261008T083059Z
+SUMMARY:[LEB2] INC 352 - Lab2: Temperature Measurements
+UID:leb2_22968160
+URL:https://app.leb2.org/class/1563128/activity/22968160
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-15 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968164
+DTEND:20261015T093059Z
+DTSTART:20261015T083059Z
+SUMMARY:[LEB2] INC 352 - Lab3: Calibration of smart temperature transmitter
+UID:leb2_22968164
+URL:https://app.leb2.org/class/1563128/activity/22968164
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111824
 DTEND:20260923T165959Z
 DTSTART:20260923T155959Z
@@ -56,6 +72,14 @@ DTSTART:20260923T155959Z
 SUMMARY:[LATE] [LEB2] INC 361 - Assignment 03: Automation systems design with fieldbus technology.
 UID:leb2_22111825
 URL:https://app.leb2.org/class/1596682/activity/22111825
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968155
+DTEND:20261008T093059Z
+DTSTART:20261008T083059Z
+SUMMARY:[LEB2] INC 352 - Lab1:Instrument Characteristics
+UID:leb2_22968155
+URL:https://app.leb2.org/class/1563128/activity/22968155
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-06 11:50:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22949058
