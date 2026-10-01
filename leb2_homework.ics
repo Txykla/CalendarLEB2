@@ -34,6 +34,14 @@ UID:leb2_22968164
 URL:https://app.leb2.org/class/1563128/activity/22968164
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-02 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1568802/activity/22949055
+DTEND:20261002T165959Z
+DTSTART:20261002T155959Z
+SUMMARY:[LEB2] INC 353 - Prompt Design and Accuracy Evaluation
+UID:leb2_22949055
+URL:https://app.leb2.org/class/1568802/activity/22949055
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111824
 DTEND:20261001T165959Z
 DTSTART:20261001T155959Z
@@ -58,12 +66,12 @@ UID:leb2_21584012
 URL:https://app.leb2.org/class/1556430/activity/21584012
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-10-02 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1568802/activity/22949055
-DTEND:20261002T165959Z
-DTSTART:20261002T155959Z
-SUMMARY:[LEB2] INC 353 - Prompt Design and Accuracy Evaluation
-UID:leb2_22949055
-URL:https://app.leb2.org/class/1568802/activity/22949055
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-07 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584016
+DTEND:20261007T050059Z
+DTSTART:20261007T040059Z
+SUMMARY:[LEB2] INC 351 - (I) HW5 Hypothesis Testing
+UID:leb2_21584016
+URL:https://app.leb2.org/class/1556430/activity/21584016
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-06 11:50:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22949058
