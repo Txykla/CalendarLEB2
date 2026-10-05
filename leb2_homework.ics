@@ -10,6 +10,14 @@ UID:leb2_21621627
 URL:https://app.leb2.org/class/1556430/activity/21621627
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-09-23 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621628
+DTEND:20261005T053059Z
+DTSTART:20261005T043059Z
+SUMMARY:[LATE] [LEB2] INC 351 - Q4 Confidence Interval
+UID:leb2_21621628
+URL:https://app.leb2.org/class/1556430/activity/21621628
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-06 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111826
 DTEND:20261006T165959Z
 DTSTART:20261006T155959Z
@@ -24,14 +32,6 @@ DTSTART:20261009T053059Z
 SUMMARY:[LEB2] INC 353 - From Real Plant to P&ID Assignment  
 UID:leb2_23133174
 URL:https://app.leb2.org/class/1568802/activity/23133174
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968160
-DTEND:20261008T093059Z
-DTSTART:20261008T083059Z
-SUMMARY:[LEB2] INC 352 - Lab2: Temperature Measurements
-UID:leb2_22968160
-URL:https://app.leb2.org/class/1563128/activity/22968160
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-15 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968164
@@ -74,12 +74,12 @@ UID:leb2_21584016
 URL:https://app.leb2.org/class/1556430/activity/21584016
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-10-06 11:50:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1545560/activity/22949058
-DTEND:20261006T045059Z
-DTSTART:20261006T035059Z
-SUMMARY:[LEB2] INC 411 - 7. Chemical safety 
-UID:leb2_22949058
-URL:https://app.leb2.org/class/1545560/activity/22949058
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968160
+DTEND:20261008T093059Z
+DTSTART:20261008T083059Z
+SUMMARY:[LEB2] INC 352 - Lab2: Temperature Measurements
+UID:leb2_22968160
+URL:https://app.leb2.org/class/1563128/activity/22968160
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-08-25 14:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111821
