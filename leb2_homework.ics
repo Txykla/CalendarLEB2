@@ -2,76 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-09 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621627
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-07 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621629
 DTEND:20261007T053059Z
 DTSTART:20261007T043059Z
-SUMMARY:[LATE] [LEB2] INC 351 - Q3 Continuous Distribution
-UID:leb2_21621627
-URL:https://app.leb2.org/class/1556430/activity/21621627
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-23 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621628
-DTEND:20261007T053059Z
-DTSTART:20261007T043059Z
-SUMMARY:[LATE] [LEB2] INC 351 - Q4 Confidence Interval
-UID:leb2_21621628
-URL:https://app.leb2.org/class/1556430/activity/21621628
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-10-15 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968164
-DTEND:20261015T093059Z
-DTSTART:20261015T083059Z
-SUMMARY:[LEB2] INC 352 - Lab3: Calibration of smart temperature transmitter
-UID:leb2_22968164
-URL:https://app.leb2.org/class/1563128/activity/22968164
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-15 23:59:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111824
-DTEND:20261007T165959Z
-DTSTART:20261007T155959Z
-SUMMARY:[LATE] [LEB2] INC 361 - Workshop 02: Modbus protocol
-UID:leb2_22111824
-URL:https://app.leb2.org/class/1596682/activity/22111824
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-08-31 13:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1575964/activity/22506308
-DTEND:20261007T063059Z
-DTSTART:20261007T053059Z
-SUMMARY:[LATE] [LEB2] MEE 224 - Assignments on Energy analysis of closed systems
-UID:leb2_22506308
-URL:https://app.leb2.org/class/1575964/activity/22506308
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-23 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584012
-DTEND:20261007T050059Z
-DTSTART:20261007T040059Z
-SUMMARY:[LATE] [LEB2] INC 351 - (G) GA3 Hypothesis Testing (In class)
-UID:leb2_21584012
-URL:https://app.leb2.org/class/1556430/activity/21584012
+SUMMARY:[LATE] [LEB2] INC 351 - Q5 Hypothesis Testing
+UID:leb2_21621629
+URL:https://app.leb2.org/class/1556430/activity/21621629
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-07 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584016
 DTEND:20261007T050059Z
 DTSTART:20261007T040059Z
-SUMMARY:[LEB2] INC 351 - (I) HW5 Hypothesis Testing
+SUMMARY:[LATE] [LEB2] INC 351 - (I) HW5 Hypothesis Testing
 UID:leb2_21584016
 URL:https://app.leb2.org/class/1556430/activity/21584016
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968160
-DTEND:20261008T093059Z
-DTSTART:20261008T083059Z
-SUMMARY:[LEB2] INC 352 - Lab2: Temperature Measurements
-UID:leb2_22968160
-URL:https://app.leb2.org/class/1563128/activity/22968160
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-08-25 14:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1596682/activity/22111821
-DTEND:20261007T070059Z
-DTSTART:20261007T060059Z
-SUMMARY:[LATE] [LEB2] INC 361 - Workshop 01: Controller programming
-UID:leb2_22111821
-URL:https://app.leb2.org/class/1596682/activity/22111821
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968155
@@ -82,19 +26,19 @@ UID:leb2_22968155
 URL:https://app.leb2.org/class/1563128/activity/22968155
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-08-26 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621625
-DTEND:20261007T053059Z
-DTSTART:20261007T043059Z
-SUMMARY:[LATE] [LEB2] INC 351 - Q1 Probability
-UID:leb2_21621625
-URL:https://app.leb2.org/class/1556430/activity/21621625
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968160
+DTEND:20261008T093059Z
+DTSTART:20261008T083059Z
+SUMMARY:[LEB2] INC 352 - Lab2: Temperature Measurements
+UID:leb2_22968160
+URL:https://app.leb2.org/class/1563128/activity/22968160
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-09-02 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621626
-DTEND:20261007T053059Z
-DTSTART:20261007T043059Z
-SUMMARY:[LATE] [LEB2] INC 351 - Q2 Discrete Distribution
-UID:leb2_21621626
-URL:https://app.leb2.org/class/1556430/activity/21621626
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-15 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968164
+DTEND:20261015T093059Z
+DTSTART:20261015T083059Z
+SUMMARY:[LEB2] INC 352 - Lab3: Calibration of smart temperature transmitter
+UID:leb2_22968164
+URL:https://app.leb2.org/class/1563128/activity/22968164
 END:VEVENT
 END:VCALENDAR
