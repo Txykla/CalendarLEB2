@@ -1,6 +1,7 @@
 import requests
 import os
 import re
+import json
 from bs4 import BeautifulSoup
 from ics import Calendar, Event
 from datetime import datetime, timedelta
@@ -12,6 +13,11 @@ import pytz
 session = requests.Session()
 bkk_tz = pytz.timezone('Asia/Bangkok')
 now = datetime.now(bkk_tz)
+
+# งานที่เลทเกินกี่วันให้หลุดออกจาก calendar ไปเลย
+MAX_LATE_DAYS = 5
+# แจ้งเตือนงานที่เหลือเวลาส่งไม่เกินกี่ชั่วโมง
+NOTIFY_WITHIN_HOURS = 8
 
 class_mapping = {
     "1545560": "INC 411",
@@ -45,6 +51,7 @@ session.get(f"https://app.leb2.org/login?token={token}")
 student_id = "10025333"
 class_ids = list(class_mapping.keys()) # ดึงรหัสจาก mapping มาวนลูปได้เลย
 cal = Calendar()
+due_soon = []  # งานที่เหลือเวลาส่งไม่เกิน NOTIFY_WITHIN_HOURS ชม.
 
 headers = {
     "Accept": "application/json",
@@ -56,14 +63,14 @@ print("3. กำลังดึงข้อมูลและกรองกา�
 for cid in class_ids:
     activities_url = f"https://app.leb2.org/api/get/assessment-activities/student?class_id={cid}&student_id={student_id}&filter_groups%5B0%5D%5Bfilters%5D%5B0%5D%5Bkey%5D=class_id&filter_groups%5B0%5D%5Bfilters%5D%5B0%5D%5Bvalue%5D={cid}&sort%5B%5D=sequence&sort%5B%5D=id&select%5B%5D=activities%3Aid%2Cuser_id%2Cclass_id%2Cadv_starred%2Cgroup_type%2Ctype%2Cpeer_assessment%2Cis_allow_repeat%2Ctitle%2Cdescription%2Cstart_date%2Cdue_date%2Cedit_group_mode%2Ccreated_at&select%5B%5D=user%3Aid%2Cfirstname_en%2Clastname_en%2Cfirstname_th%2Clastname_th&includes%5B%5D=user%3Asideload&includes%5B%5D=fileactivities%3Aids&includes%5B%5D=questions%3Aids"
     act_resp = session.get(activities_url, headers=headers)
-    
+
     if act_resp.status_code == 200:
         data = act_resp.json()
         for act in data.get("activities", []):
             title = act.get("title")
             due = act.get("due_date")
             subject_name = class_mapping.get(cid, cid)
-            
+
             # --- กรองงานที่ส่งแล้วออก ---
             submitted_at = act.get("activity_submission_submitted_at")
             quiz_submitted = act.get("quiz_submission_is_submitted")
@@ -73,44 +80,64 @@ for cid in class_ids:
             # ข้ามงานที่ไม่มีกำหนดส่ง
             if not due or "1970" in due:
                 continue
-                
+
             try:
                 due_datetime = datetime.strptime(due, '%Y-%m-%d %H:%M:%S')
                 due_datetime = bkk_tz.localize(due_datetime)
-                
+                leb2_url = f"https://app.leb2.org/class/{cid}/activity/{act.get('id')}"
+
+                # --- เก็บงานที่เหลือเวลาส่งไม่เกิน 8 ชม. ไว้แจ้งเตือน ---
+                seconds_left = (due_datetime - now).total_seconds()
+                if 0 <= seconds_left <= NOTIFY_WITHIN_HOURS * 3600:
+                    due_soon.append({
+                        "id": str(act.get("id")),
+                        "subject": subject_name,
+                        "title": title,
+                        "due": due,
+                        "due_iso": due_datetime.isoformat(),
+                        "url": leb2_url,
+                    })
+                    print(f"งานใกล้ส่ง (<= {NOTIFY_WITHIN_HOURS} ชม.): {title}")
+
                 # --- จัดการงานที่ Late ---
                 is_exceed = act.get("due_date_exceed")
                 status_prefix = ""
-                
+
                 # ถ้าเลยกำหนดแล้ว ให้แปะป้าย LATE และเลื่อนมาโชว์ในวันปัจจุบัน
                 if now > due_datetime or is_exceed:
+                    late_days = (now - due_datetime).days
+                    # งานที่เลทเกิน MAX_LATE_DAYS วัน: หลุดออกจาก calendar ไปเลย
+                    if late_days > MAX_LATE_DAYS:
+                        print(f"ข้ามงานเลทเกิน {MAX_LATE_DAYS} วัน: {title} (เลท {late_days} วัน)")
+                        continue
                     status_prefix = "[LATE] "
                     due_datetime = due_datetime.replace(year=now.year, month=now.month, day=now.day)
 
                 # --- สร้าง Event ยัดใส่ Calendar ---
-                                # --- สร้าง Event ยัดใส่ Calendar ---
                 e = Event()
                 e.uid = f"leb2_{act.get('id')}"
                 e.name = f"{status_prefix}[LEB2] {subject_name} - {title}"
                 e.begin = due_datetime - timedelta(hours=1)
                 e.end = due_datetime
-                
+
                 # --- สร้างลิงก์และยัดใส่ Description ---
-                leb2_url = f"https://app.leb2.org/class/{cid}/activity/{act.get('id')}"
                 e.description = f"กำหนดส่งเดิม: {due}\n\nลิงก์ส่งงาน: {leb2_url}"
                 e.url = leb2_url # ใส่ลง property URL ของปฏิทินด้วย
-                
+
                 cal.events.add(e)
 
                 print(f"เพิ่มลง Calendar: {e.name}")
-                
+
             except Exception as e:
                 print(f"Error จัดการวันเวลาของงาน {title}: {e}")
 
 # ==========================================
-# Step 4: บันทึกไฟล์ .ics
+# Step 4: บันทึกไฟล์ .ics และ due_soon.json
 # ==========================================
 with open('leb2_homework.ics', 'w', encoding='utf-8') as f:
     f.write(cal.serialize())
-    
-print("\n[สำเร็จ] สร้างไฟล์ leb2_homework.ics เรียบร้อยแล้ว!")
+
+with open('due_soon.json', 'w', encoding='utf-8') as f:
+    json.dump(due_soon, f, ensure_ascii=False, indent=2)
+
+print(f"\n[สำเร็จ] สร้างไฟล์ leb2_homework.ics เรียบร้อยแล้ว! (งานใกล้ส่ง {len(due_soon)} งาน)")
