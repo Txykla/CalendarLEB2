@@ -2,16 +2,16 @@ name: Update LEB2 Calendar
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # สั่งรันทุกๆ 6 ชั่วโมง
+    - cron: '0 * * * *' # รันทุกชั่วโมง (เพื่อให้แจ้งเตือนงาน 8 ชม. ทันเวลา)
   workflow_dispatch: # เปิดให้มีปุ่มกดรันเองได้ด้วย
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     # ให้สิทธิ์ Action สามารถ Push ไฟล์กลับเข้า Repo ได้
     permissions:
-      contents: write 
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -30,10 +30,28 @@ jobs:
           LEB2_PASS: ${{ secrets.LEB2_PASS }}
         run: python tryapi.py
 
-      - name: Commit and Push .ics file
+      - name: Check due-soon tasks
+        id: notify
+        run: python notify.py
+
+      - name: Send email alert
+        if: steps.notify.outputs.has_new == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: "[LEB2] งานใกล้ถึงกำหนดส่ง ${{ steps.notify.outputs.new_count }} งาน (เหลือไม่เกิน 8 ชม.)"
+          to: ${{ secrets.NOTIFY_EMAIL }}
+          from: ${{ secrets.MAIL_USERNAME }}
+          body: file://mail_body.txt
+
+      - name: Commit and Push files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add leb2_homework.ics
+          git add leb2_homework.ics due_soon.json notified.json
           git commit -m "Auto-update LEB2 Calendar" || echo "No changes to commit"
           git push
