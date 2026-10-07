@@ -3,27 +3,19 @@ VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-07 12:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21621629
-DTEND:20261007T053059Z
-DTSTART:20261007T043059Z
+DTEND:20261008T053059Z
+DTSTART:20261008T043059Z
 SUMMARY:[LATE] [LEB2] INC 351 - Q5 Hypothesis Testing
 UID:leb2_21621629
 URL:https://app.leb2.org/class/1556430/activity/21621629
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-10-07 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584016
-DTEND:20261007T050059Z
-DTSTART:20261007T040059Z
-SUMMARY:[LATE] [LEB2] INC 351 - (I) HW5 Hypothesis Testing
-UID:leb2_21584016
-URL:https://app.leb2.org/class/1556430/activity/21584016
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968155
-DTEND:20261008T093059Z
-DTSTART:20261008T083059Z
-SUMMARY:[LEB2] INC 352 - Lab1:Instrument Characteristics
-UID:leb2_22968155
-URL:https://app.leb2.org/class/1563128/activity/22968155
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-15 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968164
+DTEND:20261015T093059Z
+DTSTART:20261015T083059Z
+SUMMARY:[LEB2] INC 352 - Lab3: Calibration of smart temperature transmitter
+UID:leb2_22968164
+URL:https://app.leb2.org/class/1563128/activity/22968164
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968160
@@ -34,11 +26,11 @@ UID:leb2_22968160
 URL:https://app.leb2.org/class/1563128/activity/22968160
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-10-15 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968164
-DTEND:20261015T093059Z
-DTSTART:20261015T083059Z
-SUMMARY:[LEB2] INC 352 - Lab3: Calibration of smart temperature transmitter
-UID:leb2_22968164
-URL:https://app.leb2.org/class/1563128/activity/22968164
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-08 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968155
+DTEND:20261008T093059Z
+DTSTART:20261008T083059Z
+SUMMARY:[LEB2] INC 352 - Lab1:Instrument Characteristics
+UID:leb2_22968155
+URL:https://app.leb2.org/class/1563128/activity/22968155
 END:VEVENT
 END:VCALENDAR
