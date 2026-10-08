@@ -18,6 +18,14 @@ UID:leb2_21584013
 URL:https://app.leb2.org/class/1556430/activity/21584013
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-12 13:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1575964/activity/23244170
+DTEND:20261012T063059Z
+DTSTART:20261012T053059Z
+SUMMARY:[LEB2] MEE 224 - Assignment on Entropy  - Problem Solving
+UID:leb2_23244170
+URL:https://app.leb2.org/class/1575964/activity/23244170
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-15 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968164
 DTEND:20261015T093059Z
 DTSTART:20261015T083059Z
