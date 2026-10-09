@@ -10,20 +10,28 @@ UID:leb2_21621629
 URL:https://app.leb2.org/class/1556430/activity/21621629
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:กำหนดส่งเดิม: 2026-11-11 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584013
-DTEND:20261111T050059Z
-DTSTART:20261111T040059Z
-SUMMARY:[LEB2] INC 351 - (G) GA4 ANOVA
-UID:leb2_21584013
-URL:https://app.leb2.org/class/1556430/activity/21584013
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-12 13:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1575964/activity/23244170
 DTEND:20261012T063059Z
 DTSTART:20261012T053059Z
 SUMMARY:[LEB2] MEE 224 - Assignment on Entropy  - Problem Solving
 UID:leb2_23244170
 URL:https://app.leb2.org/class/1575964/activity/23244170
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-10-09 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1568802/activity/21735733
+DTEND:20261009T093059Z
+DTSTART:20261009T083059Z
+SUMMARY:[LEB2] INC 353 - Assignment 8 : Cabinet
+UID:leb2_21735733
+URL:https://app.leb2.org/class/1568802/activity/21735733
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:กำหนดส่งเดิม: 2026-11-11 12:00:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1556430/activity/21584013
+DTEND:20261111T050059Z
+DTSTART:20261111T040059Z
+SUMMARY:[LEB2] INC 351 - (G) GA4 ANOVA
+UID:leb2_21584013
+URL:https://app.leb2.org/class/1556430/activity/21584013
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:กำหนดส่งเดิม: 2026-10-15 16:30:59\n\nลิงก์ส่งงาน: https://app.leb2.org/class/1563128/activity/22968164
